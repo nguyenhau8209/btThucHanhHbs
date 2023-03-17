@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/result">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Number a:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="numbera"
+            placeholder="Number a"
+            name="numbera"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Number b:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="numberb"
+            placeholder="Number b"
+            name="numberb"
+            required
+          />
+        </div>
+        <select class="form-select mt-4 mb-3" name="calculator">
+          <option value="add">+</option>
+          <option value="subtract">-</option>
+          <option value="multiply">*</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <p></p>
+  </body>
+</html>
